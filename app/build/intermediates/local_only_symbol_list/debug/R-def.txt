@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color goldenStar
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable loading_image
+drawable search_bg
+id mealImage
+id mealName
+id mealNuts
+id mealPrice
+id mealSpiciness
+id mealSpicy
+id mealVegetarian
+id recyclerView
+id searchButton
+id searchView
+layout activity_main
+layout meal_list
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Retrofit
+style Theme.Retrofit
+xml backup_rules
+xml data_extraction_rules

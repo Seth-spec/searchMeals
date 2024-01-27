@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-mergeDebugResources-32:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.retrofit.app-mergeDebugResources-32:/layout/meal_list.xml",
+        "source": "com.example.retrofit.app-main-35:/layout/meal_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-mergeDebugResources-32:\\layout\\meal_list.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\layout\\meal_list.xml"
+    }
+]

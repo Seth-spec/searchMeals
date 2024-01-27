@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/mealImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/mealName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/mealPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/mealNuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/mealVegetarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/mealSpicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:text="Spiciness: "
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/mealSpiciness"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:isIndicator="true"
+            app:mrb_progressTint="@color/black"
+            app:layout_constraintStart_toEndOf="@id/mealSpicy"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
