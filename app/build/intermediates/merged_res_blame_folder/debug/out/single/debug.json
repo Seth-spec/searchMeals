@@ -4,12 +4,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\layout\\meal_list.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -50,6 +50,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-main-35:\\drawable\\card_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.retrofit.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",

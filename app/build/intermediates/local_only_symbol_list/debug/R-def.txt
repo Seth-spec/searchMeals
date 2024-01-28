@@ -3,6 +3,7 @@ local
 color black
 color goldenStar
 color white
+drawable card_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable loading_image

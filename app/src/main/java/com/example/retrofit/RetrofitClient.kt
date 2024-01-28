@@ -7,11 +7,11 @@ object RetrofitClient {
 
     private const val BASE_URL = "https://restaurant.webwide.ge/"
 
-    val retrofit: RestaurantApi by lazy {
+    val retrofit: MealApi by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(RestaurantApi::class.java)
+            .create(MealApi::class.java)
     }
 }

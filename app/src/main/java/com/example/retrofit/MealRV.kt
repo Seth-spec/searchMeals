@@ -2,21 +2,19 @@ package com.example.retrofit
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.Glide
-import com.example.retrofit.RestaurantRV.UserViewHolder
+import com.example.retrofit.MealRV.UserViewHolder
 import com.example.retrofit.databinding.MealListBinding
 
 
-class RestaurantRV(private val restaurantList: MutableList<Restaurant>):RecyclerView.Adapter<UserViewHolder>() {
+class MealRV(private val mealList: MutableList<Meal>):RecyclerView.Adapter<UserViewHolder>() {
 
     inner class UserViewHolder(
         private val binding: MealListBinding
     ): RecyclerView.ViewHolder(binding.root) {
         fun bind() {
-           val item = restaurantList[adapterPosition]
+           val item = mealList[adapterPosition]
             binding.apply {
                 mealName.text = item.name
                 mealPrice.text = "Price: $"+item.price
@@ -46,7 +44,7 @@ class RestaurantRV(private val restaurantList: MutableList<Restaurant>):Recycler
 
     }
 
-    override fun getItemCount(): Int = restaurantList.size
+    override fun getItemCount(): Int = mealList.size
 
 
 }

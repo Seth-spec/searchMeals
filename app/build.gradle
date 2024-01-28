@@ -58,5 +58,9 @@ dependencies {
 
     implementation 'me.zhanghai.android.materialratingbar:library:1.4.0'
 
+    dependencies {
+        implementation("androidx.cardview:cardview:1.0.0")
+    }
+
 
 }

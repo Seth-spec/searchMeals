@@ -2,7 +2,7 @@ package com.example.retrofit
 
 import com.google.gson.annotations.SerializedName
 
-data class Restaurant(
+data class Meal(
     val id: Int,
     val name: String,
     val price: Double,
