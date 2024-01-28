@@ -42,14 +42,14 @@ class MainActivity : AppCompatActivity() {
 
             searchButton.setOnClickListener {
                 val searchText = searchView.query.toString()
-                searchRestaurants(searchText)
+                search(searchText)
             }
         }
 
 
     }
 
-    private fun searchRestaurants(query: String) {
+    private fun search(query: String) {
         lifecycleScope.launch {
             val result = if (query.isNotEmpty()) {
                 searchMeals(query)
